@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Note taking app</title>
+    <link rel="stylesheet" href="css/mystyles.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+</head>
+<body>
+    <section class="hero is-primary">
+        <div class="hero body">
+            <div class="container">
+                <h1 class="title">Note taking app</h1>
+                <h2 class="subtitle">Add, modify and delete your notes</h2>
+            </div>
+        </div>
+     </section><!--the hero section-->
+     <section class="section">
+        <div class="container">
+            <div class="field">
+                <label class="label">Your note</label>
+                <div class="control">
+                    <textarea class="textarea" placeholder="write the text of your note"></textarea>
+                </div>
+            </div>
+                <button class="button is-primary is-outlined add-new-note">
+                    create new note
+                </button>
+        </div>
+    </section><!--create new list-->
+     <section class="section">
+            <div class="columns" id="notes-list">
+            </div>
+     </section>
+</body>
+<script src="script.js"></script>
+</html>

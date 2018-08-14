@@ -3,6 +3,9 @@
 */
 .columns {
   flex-wrap: wrap; }
+  .columns .newNote {
+    margin: 1rem;
+    margin-bottom: 1.5rem; }
 
 @keyframes spinAround {
   from {

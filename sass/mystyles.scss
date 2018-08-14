@@ -27,6 +27,10 @@ $input-shadow: none;
 
 .columns {
     flex-wrap: wrap;
+    .newNote{
+        margin: 1rem;
+        margin-bottom: 1.5rem;
+    }
 }
 
 //end of my styles

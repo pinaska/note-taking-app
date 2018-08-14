@@ -16,11 +16,13 @@ function addNewNote(){
     //create the node = div
     var newNote = document.createElement('DIV');
     //add the class of bulma column to each  note
-    newNote.classList.add('column');
+    newNote.classList.add("column", "box", "is-one-quarter");
+    // newNote.classList.add("is-child");
+    // newNote.classList.add("box");
     newNote.appendChild(newNoteText);
     // console.log('You have created a new note with the text: ' + getNewNoteText); 
     //append the new note to the div
-    document.querySelector('.columns').appendChild(newNote);
+    document.querySelector('#note-item').appendChild(newNote);
 }
 
 //TODO 3. function deleteNote + button to delete it

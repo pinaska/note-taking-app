@@ -7,6 +7,20 @@
     margin: 1rem;
     margin-bottom: 1.5rem; }
 
+.color-picker {
+  display: flex;
+  justify-content: space-around; }
+  .color-picker .color-btn {
+    width: 24px;
+    height: 24px;
+    cursor: pointer; }
+    .color-picker .color-btn#pickPink {
+      background-color: #8A4D76; }
+    .color-picker .color-btn#pickYellow {
+      background-color: yellow; }
+    .color-picker .color-btn#pickGreen {
+      background-color: green; }
+
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }

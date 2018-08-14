@@ -27,9 +27,28 @@ $input-shadow: none;
 
 .columns {
     flex-wrap: wrap;
-    .newNote{
+    .newNote {
         margin: 1rem;
         margin-bottom: 1.5rem;
+    }
+}
+
+.color-picker {
+    display: flex;
+    justify-content: space-around;
+    .color-btn {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        &#pickPink {
+            background-color: $primary;
+        }
+        &#pickYellow {
+            background-color: yellow;
+        }
+        &#pickGreen {
+            background-color: green;
+        }
     }
 }
 

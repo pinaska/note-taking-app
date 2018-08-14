@@ -27,11 +27,12 @@ function addNewNote(){
         btn.appendChild(t);
 
         //append the new note to the div
-        document
+        var noteNode = document
             .querySelector("#note-item")
             .appendChild(newNote)
             .appendChild(btn);
 
+      noteNode.insertAdjacentHTML('afterend', '<a class="delete deletebtn"></a>');
     }
     else{
         alert('you did not put any note text. Please type into the text box.');

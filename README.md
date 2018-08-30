@@ -10,7 +10,7 @@ I build similar functionality on TO DO app, but it was with jQuery [link to to-d
 
 - 08.14 - function addNewNote seems to be completed, all DOM elements were built.
 
-- 08.30 - I have decided to move the project to glitch so it is easier t collaborate on it for somebody who does want to have merge via git. 
+- 08.30 - I have decided to move the project to glitch so it is easier t collaborate on it for somebody who does notwant to have merge via git. 
 
 [please find it here:](https://glitch.com/~my-note-app) 
 

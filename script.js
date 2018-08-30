@@ -1,5 +1,6 @@
 
 function handleNote(){
+    var index = 0;
     // get the new note once button is clicked
     document.querySelector('.add-new-note').addEventListener('click', function (e) {
         addNewNote();
@@ -36,6 +37,7 @@ function handleNote(){
                 .appendChild(btn);
             //add more html to the
             noteNode.insertAdjacentHTML("afterend", '<a class="delete deletebtn"></a><p>change the background</p><div class="color-picker"><div id="pickPink"class="color-btn"></div><div id="pickYellow" class="color-btn"></div><div id="pickGreen"class="color-btn"></div></div>');
+            ++index;
 
         }
         else {
@@ -45,15 +47,12 @@ function handleNote(){
     }
 
     //TODO 3. function deleteNote
-    function deleteNote() {
         document.querySelector('.deletebtn').addEventListener('click', function (e) {
             console.log('it is clicked');
-            noteNode.children[1].remove();
         })
-    }
-    deleteNote();
 
-}
+
+};
 handleNote();
 
 
